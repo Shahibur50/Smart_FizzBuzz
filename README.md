@@ -3,6 +3,7 @@ A smart FizzBuzz program written in python to handle many multiples.
 
 ## Little example:
 ```
+Current Fizzing Rules: 3=> Fizz, 5=> Buzz, 7=> Fuzz, 11=> Bizz, 13=> Biff
 Range: 20
 1
 2
@@ -24,5 +25,6 @@ FizzBuzz
 Fizz
 19
 Buzz
+
 ```
   

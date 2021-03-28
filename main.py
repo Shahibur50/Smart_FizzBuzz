@@ -12,7 +12,9 @@ fizzing_rules = {
 def main(dictionary):
     print("Current Fizzing Rules: ", end="")
     for multiple, value in fizzing_rules.items():
-        print(f"{multiple}=> {value}, ", end="")
+        print(f"{multiple}=> {value}", end="")
+        if multiple != list(fizzing_rules.keys())[-1]:
+            print(", ", end="")
     print()
 
     for i in range(1, int(input("Range: ")) + 1):
@@ -29,4 +31,3 @@ def main(dictionary):
 
 if __name__ == "__main__":
     main(fizzing_rules)
-
