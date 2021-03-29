@@ -1,3 +1,10 @@
+'''
+Smart_FizzBuzz
+
+Copyright (c) 2021, Shahibur Rahaman
+All rights reserved.
+'''
+
 
 # Type as much fizzing rules you want ;-)
 fizzing_rules = {
